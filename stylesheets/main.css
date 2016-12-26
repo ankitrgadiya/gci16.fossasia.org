@@ -555,8 +555,9 @@ figure.effect-gcihover:hover figcaption::before {
     width: 100%;
     height: auto;
     padding: 10px 50px 10px 50px;
-    background-color: #e12b00;
-    color: white;
+    background-color:  #f44336;
+    color: #fafafa;
+    margin-top: 30px;
 }
 
 .footer p {
@@ -589,15 +590,16 @@ figure.effect-gcihover:hover figcaption::before {
 }
 
 .footer .social a {
-    background: #0e5bd6;
     margin-top: -5px;
 }
 
 .footer .social a i {
-    color: #fff;
+    color: #FAFAFA;
     margin: 10px 0 0 11px;
 }
-
+.footer .row ul li a i {
+    color: #FAFAFA;
+}
 .footer .social a:last-child i {
     margin-left: 6px;
 }
